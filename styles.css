@@ -157,6 +157,9 @@ h2 {
 }
 
 .quote-authour {
+    font-size: 20px;
+    font-weight: bold;
     display: flex;
     flex-direction: row-reverse;
+    width: 1000px;
 }
