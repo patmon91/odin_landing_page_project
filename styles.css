@@ -72,11 +72,11 @@ button {
     background-color: #3882f6;
     color: #e5e7eb;
     width: 100px;
-    border: 0px;
     height: 40px;
     font-size: 18px;
     font-weight: bold;
     border-radius: 8px;
+    border:2px solid #e5e7eb;
     
 }
 
@@ -162,4 +162,30 @@ h2 {
     display: flex;
     flex-direction: row-reverse;
     width: 1000px;
+}
+
+.action {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+    background-color: #3882f6;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+    height: 140px;
+    border-radius: 10px;;
+}
+
+h6 {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 10px;
+}
+
+.action .right-blue-box p {
+    color: #e5e7eb;
+    font-size: 14px;
+    margin: 10px ;
 }
