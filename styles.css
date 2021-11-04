@@ -86,6 +86,11 @@ button {
     background-color: #e5e7eb;
 }
 
-.below-header .right .image .image-text {
-    color:#e5e7eb;
+.image-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 800px
+
 }
