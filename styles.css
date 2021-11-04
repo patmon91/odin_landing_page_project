@@ -91,6 +91,45 @@ button {
     align-items: center;
     justify-content: center;
     height: 400px;
-    width: 800px
+    width: 800px;
+}
 
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+}
+
+.four-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    margin-top: 50px;
+}
+
+.illustration-and-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.illustration {
+    height: 200px;
+    width: 200px;
+    background-color: #1F2937;
+    border-radius: 5px;
+}
+
+.content .four-box .illustration-and-text p {
+    height: 200px;
+    width: 200px;
 }
