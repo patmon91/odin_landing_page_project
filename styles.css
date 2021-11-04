@@ -1,7 +1,7 @@
-.body {
+body {
     display: flex;
     flex-direction: column;
-    font: "Arial", sans-serif;
+    font-family: sans-serif;
 }
 
 .header {
@@ -10,15 +10,15 @@
     padding: 16px;
     background-color: #1F2937;
     align-items: center;
-    
-   
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
     text-decoration: none;
-    margin-left: 100px;
+    font-weight: bolder;
 }
 
 ul {
@@ -27,7 +27,6 @@ ul {
     margin: 0;
     padding: 0;
     gap: 16px;
-    margin-right: 100px;
     
 }
 
@@ -41,9 +40,52 @@ a {
     display: flex;
     flex-direction: row;
     background-color: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
-.left-block {
+.below-header .left {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    width: 500px;
+    margin:0px;
+    padding:0px;
+    font-weight: 700;
+}
+
+.below-header .left p {
     font-size: 18px;
     color: #e5e7eb;
+    width: 500px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    width: 100px;
+    border: 0px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    
+}
+
+.image {
+    height: 400px;
+    width: 800px;
+    background-color: #e5e7eb;
+}
+
+.below-header .right .image .image-text {
+    color:#e5e7eb;
 }
