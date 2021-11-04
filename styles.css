@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
+    margin: 0px;
 }
 
 .header {
@@ -188,4 +189,10 @@ h6 {
     color: #e5e7eb;
     font-size: 14px;
     margin: 10px ;
+}
+
+.footer {
+    background-color: #1f2937;
+    color:#e5e7eb;
+    text-align: center;
 }
